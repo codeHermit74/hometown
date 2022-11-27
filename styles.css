@@ -1,0 +1,91 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    width: 720px;
+}
+#header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    height: 350px;
+    background-image: url("images/chicagoSkyline.png");
+    background-repeat: no-repeat;
+    margin-bottom: 0px;
+}
+#hero-head {
+    font-size: 32px;
+    background-color: #457B9D;
+    margin: 6px auto;
+    padding: 5px 12px;
+    border-radius: 10px;
+}
+#hero-sub {
+    text-shadow: 0px 0px 1px black;
+    font-size: 18px;
+    background-color: #A8DADC;
+    margin: 6px auto;
+    padding: 8px 30px;
+    border-radius: 10px;
+}
+#activities {
+    background-image: linear-gradient(#1D3557, #A8DADC);
+    margin-top: -2px;
+    color: white;
+    padding-top: 15px;
+}
+#activity-container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.todo-img {
+    border-radius: 50px;
+    margin-bottom: 0px;
+}
+.todo-container {
+    margin-top: 0px;
+}
+img {
+    width: 100px;
+}
+h1, h2, h3 {
+    font-family: 'Cinzel', serif;
+}
+h4 {
+    font-family: arial;
+    margin-top: 15px 0px 0px 0px;
+    font-style: bold;
+}
+.activity-txt {
+    font-family: arial;
+    margin: -15px 15px 50px 15px;
+    font-size: 14px;
+}
+#guide-container {
+    width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #A8DADC;
+    color: #2b2839;
+    border-radius: 10px;
+    border-bottom: 5px solid #1D3557
+}
+#guide-img {
+    margin-top: 40px;
+    height: 100px;
+    margin-right: 10px;
+}
